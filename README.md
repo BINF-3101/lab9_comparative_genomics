@@ -144,8 +144,31 @@ Follow the steps below to re-root your tree
 <img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/844c2680-837b-4a81-92f2-6c10cd072a37" width=500>
 
 The new tree should now be rooted by the OUTGROUP
+
 <img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/8a6db345-892a-42b1-84c8-ddb151d2f081" width=500>
 
+Examine the tree and identify the **smallest clade** that includes your species and the sister taxa
+
+# LQ 8 
+
+What are the names of the species that form a clade with your sequence? If this clade includes _all the other sequences_ you can specify that. 
+
+You will need to take the SRR numbers and convert them to species: https://docs.google.com/spreadsheets/d/1dMQB6ykYhzzFyWtFi-jBCXJQd3Yk2UCLWxDkSXm-Gk4/edit?usp=sharing 
+
+## Step 7 - Compare trees
+
+Below I have copied the **species tree**. There is also a copy of this on the Canvas site. 
+
+![species_tree](https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/24ff7c31-f561-4334-9637-24d8067fb602)
+
+
+# LQ 9
+
+Based on the **species tree** What are the names of the species that form a clade with your species? If this clade includes _all the other species_ you can specify that. 
+
+# LQ 10 
+
+Are there any species within the **gene-based clade** that are **_not_** found in the **species-based clade**? 
 
 
 
