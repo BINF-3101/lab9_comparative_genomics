@@ -8,7 +8,7 @@
 
 [Step 3 - Create Gene Tree](#step-3---create-your-gene-based-phylogeny)
 
-[Step 4 - Analyze Output(#step-4---analyze-your-log-file)
+[Step 4 - Analyze Output](#step-4---analyze-your-log-file)
 
 [LQ1](#lq-1)
 
