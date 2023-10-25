@@ -109,7 +109,7 @@ This section will report how your tree search went. Examine this section and ans
 What was the total number of iterations used to search for your tree? 
 
 
-# Step 5
+## Step 5 - Upload tree file to iTOL
 
 You will now need to download the tree file which ends in "treefile" - for example ```GENE.align.fasta.treefile```
 
@@ -122,7 +122,38 @@ Go to https://itol.embl.de/
 
 Once you are at the itol site click the **Upload** button
 
-<img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/6b41a864-0b66-4449-b27b-5914cac0b379" width=100>
+<img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/6b41a864-0b66-4449-b27b-5914cac0b379" width=500>
+
+You will see an option to **Choose File** - this is where you will upload your treefile 
+
+## Step 6 - Root your tree
+
+You will see a branch that is labeled **OUTGROUP**. We need to re-root our tree to make sure the outgroup is on the _outside_ of our tree
+
+Follow the steps below to re-root your tree
+
+### Step 6a - Hover over the branch labeled OUTGROUP
+
+<img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/6548d761-7cf3-49f9-a243-74b80501470e" width=500>
+
+### Step 6b - Click on the branch labeled OUTGROUP
+
+<img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/1d001310-2d79-44ea-8f2f-ee73db263a16" width=500>
+
+### Step 6c - Under Tree Structure click "Re-root the tree here"
+<img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/844c2680-837b-4a81-92f2-6c10cd072a37" width=500>
+
+The new tree should now be rooted by the OUTGROUP
+<img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/8a6db345-892a-42b1-84c8-ddb151d2f081" width=500>
+
+
+
+
+
+
+
+
+
 
 
 
