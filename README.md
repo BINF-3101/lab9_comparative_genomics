@@ -122,7 +122,7 @@ Go to https://itol.embl.de/
 
 Once you are at the itol site click the **Upload** button
 
-![image](https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/6b41a864-0b66-4449-b27b-5914cac0b379)
+<img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/6b41a864-0b66-4449-b27b-5914cac0b379" width=100>
 
 
 
