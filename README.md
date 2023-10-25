@@ -1,8 +1,44 @@
 # lab9_comparative_genomics
 
+# OUTLINE
+
+[Step 1 - Setup](#step-1---set-up-folder)
+
+[Step 2 - Align Seqs](#step-2---align-the-sequences)
+
+[Step 3 - Create Gene Tree](#step-3---create-your-gene-based-phylogeny)
+
+[Step 4 - Analyze Output(#step-4---analyze-your-log-file)
+
+[LQ1](#lq-1)
+
+[LQ2](#lq-2)
+
+[LQ3](#lq-3)
+
+[LQ4](#lq-4)
+
+[LQ5](#lq-5)
+
+[LQ6](#lq-6)
+
+[LQ7](#lq-7)
+
+[Step 5 - iTOL](#step-5---upload-tree-file-to-itol)
+
+[Step 6 - Root the Tree](#step-6---root-your-tree)
+
+[LQ8](#lq-8)
+
+[Step 7 - Compare Trees](#step-7---compare-trees)
+
+[LQ9](#lq-9)
+
+[LQ10](#lq-10)
+
 This week we are going to build and visualize a phylogenetic gene-tree based on the metabolic genes you found in the previous labs. 
 
-## Step 1 - Set up folder
+## Step 1 - Setup folder
 
 You will need to make a new folder called ```lab_9```
 
