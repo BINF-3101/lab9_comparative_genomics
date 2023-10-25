@@ -15,10 +15,13 @@ Copy the file from the class space containing the sequences.
 ```bash
 cp /projects/class/binf3101_001/class_seqs/GENE.class.fasta .
 ```
+&ensp;
 
 ## Step 2 - Align the sequences 
 
 We need to align our sequences prior to creating a phylogenetic tree. We will use MAFFT again to do this. 
+
+&ensp;
 
 ### Step 2a - Load MAFFT
 First you will need to load mafft
@@ -26,6 +29,8 @@ First you will need to load mafft
 ```bash
 module load mafft
 ```
+
+&ensp;
 
 ### Step 2b - Create an alignment
 
@@ -40,6 +45,8 @@ The output file will be a new name. But I suggest something like ```GENE.align.f
 You should now have two files in your directory. You should check with ```ls```
 
 There will be the original GENE file and the aligned GENE file.
+
+&ensp;
 
 ## Step 3 - Create your gene-based phylogeny
 
@@ -57,6 +64,8 @@ iqtree2 -s GENE.align.fasta
 
 You will see things start to print to your screen. When it is done running, it will print the day and time. 
 
+&ensp;
+
 ## Step 4 - Analyze your log file 
 
 The analysis conducted by IQTree are saved in the **log** file that will have the format ```GENE.align.fasta.log```
@@ -65,26 +74,39 @@ Look at this file using the ```cat``` command or ```less```. Answer the followin
 
 ### Examine the input sequences
 
+&ensp;
+
 # LQ 1
 How many sequences were in the alignment file?
+
+&ensp;
 
 # LQ 2 
 How many sites/columns were parsimony-informative?
 
+&ensp;
+
 # LQ 3 
 How many sites/columns were constant?
+
+&ensp;
 
 # LQ 4
 Each of the sequences is now labeled with the SRR number in front of the gene name. Find your SRR number in the section that lists the Gap/Ambiguity scores. 
 What percent of your sequence was either a Gap or an Ambiguity?
 
+&ensp;
 
 ### Examine the ModelFinder Results
+
+&ensp;
 
 # LQ 5
 
 ModelFinder tests various models of evolution that are then used to build the tree. 
 Which is the "Best-fit model"? 
+
+&ensp;
 
 # LQ 6
 The model selected likely has multiple parts separated by "+" signs. The first part of this model (before the first +) is the **amino acid exchange rate matrix**. 
@@ -99,15 +121,19 @@ G4 - Discrete Gamma model
 
 What does your amino acid exchange rate matrix stand for? Aka what is the name of it? Use this website to find out http://www.iqtree.org/doc/Substitution-Models 
 
+&ensp;
 
 ### Examine the section called ```FINALIZING TREE SEARCH```
 
 This section will report how your tree search went. Examine this section and answer the questions below
 
+&ensp;
+
 # LQ 7
 
 What was the total number of iterations used to search for your tree? 
 
+&ensp;
 
 ## Step 5 - Upload tree file to iTOL
 
@@ -117,14 +143,16 @@ If you cannot remember how to download files from the cluster onto your computer
 
 
 We will look at our tree on a website called itol or the Interactive Tree of Life. 
-
+&ensp;
 Go to https://itol.embl.de/
-
+&ensp;
 Once you are at the itol site click the **Upload** button
-
+&ensp;
 <img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/6b41a864-0b66-4449-b27b-5914cac0b379" width=500>
 
 You will see an option to **Choose File** - this is where you will upload your treefile 
+
+&ensp;
 
 ## Step 6 - Root your tree
 
@@ -132,13 +160,19 @@ You will see a branch that is labeled **OUTGROUP**. We need to re-root our tree 
 
 Follow the steps below to re-root your tree
 
+&ensp;
+
 ### Step 6a - Hover over the branch labeled OUTGROUP
 
 <img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/6548d761-7cf3-49f9-a243-74b80501470e" width=500>
 
+&ensp;
+
 ### Step 6b - Click on the branch labeled OUTGROUP
 
 <img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/1d001310-2d79-44ea-8f2f-ee73db263a16" width=500>
+
+&ensp;
 
 ### Step 6c - Under Tree Structure click "Re-root the tree here"
 <img src="https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/844c2680-837b-4a81-92f2-6c10cd072a37" width=500>
@@ -149,11 +183,15 @@ The new tree should now be rooted by the OUTGROUP
 
 Examine the tree and identify the **smallest clade** that includes your species and the sister taxa
 
+&ensp;
+
 # LQ 8 
 
 What are the names of the species that form a clade with your sequence? If this clade includes _all the other sequences_ you can specify that. 
 
 You will need to take the SRR numbers and convert them to species: https://docs.google.com/spreadsheets/d/1dMQB6ykYhzzFyWtFi-jBCXJQd3Yk2UCLWxDkSXm-Gk4/edit?usp=sharing 
+
+&ensp;
 
 ## Step 7 - Compare trees
 
@@ -161,10 +199,13 @@ Below I have copied the **species tree**. There is also a copy of this on the Ca
 
 ![species_tree](https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/24ff7c31-f561-4334-9637-24d8067fb602)
 
+&ensp;
 
 # LQ 9
 
 Based on the **species tree** What are the names of the species that form a clade with your species? If this clade includes _all the other species_ you can specify that. 
+
+&ensp;
 
 # LQ 10 
 
