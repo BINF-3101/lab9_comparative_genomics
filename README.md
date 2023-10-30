@@ -140,7 +140,7 @@ What percent of your sequence was either a Gap or an Ambiguity?
 # LQ 5
 
 ModelFinder tests various models of evolution that are then used to build the tree. 
-Which is the "Best-fit model"? 
+Which is the "**Best-fit model**"? 
 
 &ensp;
 
@@ -167,7 +167,7 @@ This section will report how your tree search went. Examine this section and ans
 
 # LQ 7
 
-What was the total number of iterations used to search for your tree? 
+What was the total "**Number of iterations**" used to search for your tree? 
 
 &ensp;
 
