@@ -128,7 +128,7 @@ How many sites/columns were constant?
 &ensp;
 
 # LQ 4
-Each of the sequences is now labeled with the SRR number in front of the gene name. Find your SRR number in the section that lists the Gap/Ambiguity scores. 
+Find your yeast by its species name and look at the number in the section that lists the Gap/Ambiguity scores. 
 What percent of your sequence was either a Gap or an Ambiguity?
 
 &ensp;
@@ -224,8 +224,6 @@ Examine the tree and identify the **smallest clade** that includes your species 
 # LQ 8 
 
 What are the names of the species that form a clade with your sequence? If this clade includes _all the other sequences_ you can specify that. 
-
-You will need to take the SRR numbers and convert them to species: https://docs.google.com/spreadsheets/d/1dMQB6ykYhzzFyWtFi-jBCXJQd3Yk2UCLWxDkSXm-Gk4/edit?usp=sharing 
 
 &ensp;
 
