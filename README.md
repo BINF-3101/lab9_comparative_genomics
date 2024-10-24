@@ -237,7 +237,7 @@ Below I have copied the **species tree**. There is also a copy of this on the Ca
 
 # LQ 9
 
-Based on the **species tree** What are the names of the species that form a clade with your species? If this clade includes _all the other species_ you can specify that. 
+Based on the **species tree**, what are the names of the species that form the smallest clade possible with your species? If this clade includes _all the other species_ you can specify that. 
 
 &ensp;
 
