@@ -231,7 +231,7 @@ What are the names of the species that form a clade with your sequence? If this 
 
 Below I have copied the **species tree**. There is also a copy of this on the Canvas site. 
 
-![species_tree](https://github.com/BINF-3101/lab9_comparative_genomics/assets/47755288/24ff7c31-f561-4334-9637-24d8067fb602)
+![species_tree](https://github.com/user-attachments/assets/3af238a9-4eb9-4d18-9ceb-0a1842ba7bfc)
 
 &ensp;
 
